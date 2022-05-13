@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap");
+
+:root {
+  --font-first: "Open Sans", sans-serif; /* navigation font */
+  --font-second: "Poppins", sans-serif; /* page font */
+  --nav-clr: #ffec47; /* navbar background */
+  --greet-clr: #f44336; /* greeting text-clr */
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  outline: none;
+  background: transparent;
+  border: 2px solid pink;
+  border-radius: 4px;
+  color: #000;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, inset 0 0 0.5rem var(--nav-clr);
+}
+
+.btn:hover {
+  color: #ffffff;
+  text-shadow: 0 0 48px #fff, 0 0 68px #fff;
+  cursor: pointer;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 1.2rem rgb(255, 49, 49),
+    0 0 0.2rem rgb(255, 49, 49), 0 0 0.2rem rgb(255, 49, 49),
+    inset 0 0 0.5rem rgb(255, 49, 49);
+}
+
+.btn-submit {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  outline: none;
+  background: #ffc10791;
+  border: 2px solid pink;
+  border-radius: 4px;
+  color: #ff9800;
+  padding: 10px 30px;
+  text-transform: capitalize;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  text-shadow: 0 0 4px #ffffff, 0 0 8px #ffffff, 0 0 16px green;
+}

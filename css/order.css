@@ -1,0 +1,25 @@
+/* prevente default settings of css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.inner-box {
+  width: 80%;
+  margin: 2rem auto;
+  background: #fad0d0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  height: 50vh;
+}
+
+.order-result {
+  font-size: 2rem;
+  letter-spacing: 4px;
+  font-family: var(--font-second);
+  margin-bottom: 1.5rem;
+}
